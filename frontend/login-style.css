@@ -1,0 +1,41 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+@use "@material/button";
+
+@include button.core-styles;
+@import "@material/textfield/mdc-text-field";
+@import "@material/textfield/mdc-text-field";
+@import "@material/textfield/helper-text/mdc-text-field-helper-text";
+.logo_container{
+    /* top: 50%;
+    left: 45%;
+    width: 300px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* top: 50%;
+    left: 45%;
+    width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnlogin{
+    font-size: 20px;
+}
+
+#link2register{
+    font-size: 15px;
+    color: sienna;
+}
+
+/*# sourceMappingURL=login-style.css.map */

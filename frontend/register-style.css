@@ -1,0 +1,64 @@
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+
+@include textfield.core-styles;
+
+
+@use "@material/ripple";
+@use "@material/button";
+
+@include button.core-styles;
+
+.mdc-button foo-button {
+  @include ripple.surface;
+  @include ripple.radius-bounded;
+  @include ripple.states;
+}
+
+.page_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@import "@material/textfield/mdc-text-field";
+.logo_container{
+    /* top: 50%;
+    left: 45%;
+    width: 300px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* top: 50%;
+    left: 45%;
+    width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnregister{
+    font-size: 20px;
+}
+#link2register{
+    font-size: 10px;
+}
