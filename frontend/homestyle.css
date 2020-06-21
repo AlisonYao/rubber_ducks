@@ -1,0 +1,54 @@
+@use "@material/list";
+
+@include list.core-styles;
+
+
+/* //card */
+@use "@material/card";
+
+@include card.core-styles;
+.my-card-content {
+    padding: 16px;
+  }
+.mdc-card {
+height: 350px;
+width: 350px;
+z-index: 999;
+  }
+
+#isitcard{
+    background-color: hotpink;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.demo-card-wide:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+
+
+
+
+
+
+body{
+    color:  rgb(88, 37, 7);
+}
+
+.material-icons.orange600 { 
+    color: #FB8C00; 
+}
+
+
+/* select */
+@use "@material/list/mdc-list";
+@use "@material/menu-surface/mdc-menu-surface";
+@use "@material/menu/mdc-menu";
+@use "@material/select/mdc-select";
+
+.demo-width-class {
+  width: 400px;
+}
+
