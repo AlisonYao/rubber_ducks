@@ -1,0 +1,15 @@
+@use "@material/list";
+
+@include list.core-styles;
+
+//card
+@use "@material/card";
+
+@include card.core-styles;
+.my-card-content {
+    padding: 16px;
+  }
+.my-card {
+height: 350px;
+width: 350px;
+  }
