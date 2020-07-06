@@ -28,6 +28,10 @@
 // var card=document.getElementsByClassName(demo-card-wide. mdl-card);
 function showMyProfile(){
     document.getElementById("demo-card-wide-profile").style.display="flex";
+    document.getElementById("demo-card-wide-enterroom").style.display="none";
+    document.getElementById("demo-card-wide-roomsetting").style.display="none";
+    document.getElementById("demo-card-wide-studyhistory").style.display="none";
+  
 }
 
 function closeprofile(){
@@ -40,6 +44,10 @@ document.getElementById("btn_closeprofile").addEventListener("click", closeprofi
 //  room setting card
 function showRoomSetting(){
     document.getElementById("demo-card-wide-roomsetting").style.display="flex";
+    document.getElementById("demo-card-wide-enterroom").style.display="none";
+    document.getElementById("demo-card-wide-profile").style.display="none";
+    document.getElementById("demo-card-wide-studyhistory").style.display="none";
+  
 }
 
 function closeRoomSetting(){
@@ -51,6 +59,10 @@ document.getElementById("btn_close-roomsettings").addEventListener("click", clos
 //study history card
 function showStudyHistory(){
   document.getElementById("demo-card-wide-studyhistory").style.display="flex";
+  document.getElementById("demo-card-wide-enterroom").style.display="none";
+  document.getElementById("demo-card-wide-profile").style.display="none";
+  document.getElementById("demo-card-wide-roomsetting").style.display="none";
+
 }
 
 function closeStudyHistory(){
@@ -153,3 +165,18 @@ var toggleButton = document.getElementById('btntimepicker');
 toggleButton.addEventListener('click', function() {
 dialog.toggle();
 });
+
+
+
+//enter room btn
+function showEnterStudyroom(){
+  document.getElementById("demo-card-wide-enterroom").style.display="flex";
+  document.getElementById("demo-card-wide-profile").style.display="none";
+  document.getElementById("demo-card-wide-roomsetting").style.display="none";
+  document.getElementById("demo-card-wide-studyhistory").style.display="none";
+}
+function closeEnterStudyroom(){
+  document.getElementById("demo-card-wide-enterroom").style.display="none";
+}
+// document.getElementById("btn_close_enterroom").addEventListener("click", closeEnterStudyroom);
+

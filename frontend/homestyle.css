@@ -153,7 +153,8 @@ body{
 }
 
 .select-selected {
-  background-color: rgb(195, 221, 247);
+  background-color: #4563BF;
+  color: darkslategray;
 }
 
 /*style the arrow inside the select element:*/
@@ -187,7 +188,7 @@ body{
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color:#506CBF;
   top: 100%;
   left: 0;
   right: 0;
@@ -217,5 +218,16 @@ body{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+#btn_enterroom{
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  z-index: 99999;
+}
+
+#demo-card-wide-enterroom{
+  display: none;
 }
 
