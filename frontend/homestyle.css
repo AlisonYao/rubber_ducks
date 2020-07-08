@@ -223,7 +223,7 @@ body{
 #btn_enterroom{
   position: absolute;
   bottom: 20%;
-  right: 30%;
+  right: 20%;
   z-index: 99999;
 }
 
