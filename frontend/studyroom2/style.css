@@ -1,0 +1,244 @@
+body{
+    z-index: -9999;
+}
+#btnexitroom{
+    position:absolute;
+    top: 20px;
+    left: 1200px;
+
+}
+
+
+
+
+
+#sitdownbtn1{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 592px;
+    left: 340px;
+}
+
+#sitdownbtn2{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 592px;
+    left: 200px;
+}
+#sitdownbtn3{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 412px;
+    left: 410px;
+}
+#sitdownbtn4{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 472px;
+    left: 600px;
+}
+#sitdownbtn5{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 490px;
+    left: 720px;
+}
+#sitdownbtn6{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 516px;
+    left: 910px;
+}
+#sitdownbtn7{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 716px;
+    left: 840px;
+}
+
+#sitdownbtn9{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 515px;
+    left: 1200px;
+}
+#c1{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 470px;
+    left: 30px;
+    display: none;
+    /* background-color: rgba(240, 230, 140, 0.3); */
+    height: fit-content;
+}
+#c1studyplan{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 375px;
+    left: 30px;
+    width: fit-content;
+    /* opacity: 50%; */
+
+}
+
+#cc1{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 470px;
+    left: 30px;
+    display: none;
+    /* background-color: rgba(240, 230, 140, 0.3); */
+    height: fit-content;
+}
+#cc1studyplan{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 375px;
+    left: 30px;
+    width: fit-content;
+    /* opacity: 50%; */
+
+}
+
+
+
+#countdown_events1{
+    z-index: 999;
+    background-color: rgba(240, 230, 140, 0.3);
+
+}
+#studybtnflex{
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(240, 230, 140, 0.3);
+
+}
+
+
+
+/* .like{ font-size:66px;  color:#ccc; cursor:pointer;}
+.cs{color:#f00;} */
+#c2{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 470px;
+    left: 430px;
+    display: none;
+
+}
+
+#c2studyplan{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 375px;
+    left: 330px;
+    width: fit-content;
+    /* opacity: 50%; */
+
+}
+#countdown_events2{
+    z-index: 999;
+    background-color: rgba(240, 230, 140, 0.3);
+
+}
+#studybtnflex{
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(240, 230, 140, 0.3);
+
+}
+
+
+#c3{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 380px;
+    left: 500px;
+}
+#c4{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 390px;
+    left: 600px;
+}
+#c5{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 400px;
+    left: 720px;
+}
+#c6{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 410px;
+    left: 900px;
+}
+#c7{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 580px;
+    left: 930px;
+}
+#c8{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 470px;
+    left: 1100px;
+}
+/* #v1{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 455px;
+    left: 1105px;
+} */
+
+.thumb1 { 
+    background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 250px;
+    }
+    
+    .thumb:hover { YOUR HOVER STYLES HERE }
+    
+#v2{
+    position:absolute;
+    /* top:30%; */
+    /* left: 15%; */
+    top: 100px;
+    left: 800px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    background-color: hotpink;
+    top: 100px;
+    left: 1200px;
+    width: 500px;
+    height: 400px;
+    
+}
